@@ -1,0 +1,289 @@
+
+.body{
+    min-height:  90vh;
+    width: 99%;
+    
+    
+    position: relative;
+    
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: green wavy underline;;
+    font-size: 13px;
+}
+    
+
+.ul{
+    background-color: #6d1313;
+    padding: 20px;
+    width: 100%;
+    border-radius: 16px;
+    list-style: none;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.384)),url(./imaginicroco/croco-fundal.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+}
+.logo{
+    height: 100px; 
+    width: auto; 
+    position: fixed;
+    right: 10px;
+}
+.btnfrm{
+    float: right;
+    
+}
+input[type=submit]{
+    background-color: #49a837;
+    border: none;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.753);
+    border-radius: 15px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: fit-content;
+}
+input[type=submit]:hover{
+    background-color: #ffb109;
+    border: none;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.753);
+    border-radius: 1px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+input[type=date], select, input[type=text]{
+    width: fit-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.frm{
+    background-color: rgb(0, 53, 0);
+    width: 65%;
+    border-radius: 6px;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgb(88, 255, 46);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    text-align: center;
+    right:18%;
+    top: 90%;
+}
+
+.frm div{
+    margin:3%;   
+}
+
+#textbox{
+    border-radius: 50px;
+    border: 0cm;
+}
+
+#textfrm{
+    color: aliceblue;
+}
+
+
+.despre{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15%;
+}
+
+.container{
+    background-color: rgb(0, 53, 0);
+    width: 35%;
+    border-radius: 6px;
+    /*margin-left: 5%;*/
+    box-shadow: 0 0 20px 0px rgb(88, 255, 46);
+    box-sizing: border-box;
+    padding: 1.5%;
+    
+}
+
+.descriere{
+    color: #49a837;
+}
+
+
+.imgcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 1em;
+    /* padding: 5%; */
+    /* margin-left: 2%;
+    margin-right: 2%; */
+    width: 40%;
+}
+
+
+.imgdespre{
+    filter: grayscale(100%);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    width: 7cm;
+}
+.imgdespre:hover{
+    filter: none;
+    width: 7.1cm;
+}
+
+.filmelezilei{
+    background-color: rgb(0, 53, 0);
+    box-shadow: 0 0 20px 0px rgb(88, 255, 46);
+    margin-top: 15%;
+}
+
+
+h1{
+    color:#49a837 ;
+    text-align: center;
+    font-size:350%
+}
+
+h2{
+    color: #ffa500 ;
+}
+
+
+.pib{
+    width: 40%;
+    border-radius: 0%;
+    
+}
+
+.filmelezilei{
+    padding: 2%;
+}
+.filme{
+    background-color: rgb(78, 16, 32);
+    box-shadow: 0 0 20px 0px rgba(209, 14, 0, 0.664) inset;
+    width: 30%;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.paragraf{
+    background-color: #ffb411a1;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+
+input[type=button]{
+    background-color: #d82a2a;
+    border: none;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.753);
+    border-radius: 15px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: fit-content;
+}
+input[type=button]:hover{
+    background-color: #6d1313;
+    border: none;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.753);
+    border-radius: 1px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.poster{
+    width: 30%;
+}
+
+.frm2{
+    background-color: rgb(0, 53, 0);
+    width: 40%;
+    border-radius: 6px;
+    margin-top: 15%;
+    padding: 2%;
+    box-shadow: 0 0 20px 0px rgb(88, 255, 46);
+    display: flex;
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 8%;
+}
+
+.textfrm{
+    color: aliceblue;
+}
+
+#workpic{
+    width: 7cm;
+    border-radius:150px 0px 150px 0px;
+    border-width: 0.5cap;
+    border-style: dashed;
+    border-color: #49a837;
+    position: absolute;
+    bottom: 160px;
+    left: 30px;
+}
+
+#bathpic{
+    width: 10cm;
+    border-radius:150px 0px 150px 0px;
+    border-width: 0.5cap;
+    border-style: dashed;
+    border-color: #49a837;
+    position: absolute;
+    left: 150px;
+    bottom: 1px;
+}
+
+.pics{
+    margin-left: 10%;
+    position:relative;
+    left: 5%;
+}
+
+footer{
+    background-color: rgb(0, 53, 0);
+    bottom: 0;
+    
+    text-align: center;
+    position: relative;
+    height: 70px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+i:hover{
+    color: #ffb109;
+}
+
+
+
+
